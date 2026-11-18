@@ -2,30 +2,30 @@
 ## Setup and Use a Firewall on Windows/Linux
 
 * **Intern Name:** Mohammed Sufiyan Ahmed
-* **Key Concepts:** Firewall Configuration, Network Traffic Filtering, Ports, UFW, Windows Firewall[cite: 14].
+* **Key Concepts:** Firewall Configuration, Network Traffic Filtering, Ports, UFW, Windows Firewall.
 
 ---
 
 ## 1. Objective
-* Configure and test basic firewall rules to allow or block incoming and outgoing network traffic[cite: 14].
+* Configure and test basic firewall rules to allow or block incoming and outgoing network traffic.
 
 ## 2. Tools Used
 * **Windows Defender Firewall with Advanced Security:** Built-in Windows enterprise-grade traffic filtering tool used for managing inbound and outbound security rules.
 
 ## 3. Deliverables
-* Screenshots and configuration details showing applied firewall rules (blocking inbound Port 23 / Telnet traffic)[cite: 14].
+* Screenshots and configuration details showing applied firewall rules (blocking inbound Port 23 / Telnet traffic).
 
 ## 4. Outcome
-* Acquired fundamental firewall management skills and a practical understanding of network traffic filtering mechanisms[cite: 14].
+* Acquired fundamental firewall management skills and a practical understanding of network traffic filtering mechanisms.
 
 ---
 
 ## 5. Step-by-Step Execution
-1. Opened firewall configuration tools using Advanced Security settings (`wf.msc`)[cite: 14].
-2. Reviewed existing active inbound and outbound firewall rules[cite: 14].
-3. Created a new **Inbound Rule** targeting specific local TCP **Port 23** (Telnet)[cite: 14].
-4. Configured the action rule to **Block the connection** across all profiles (Domain, Private, Public)[cite: 14].
-5. Named the rule `Block Telnet Port 23` and successfully verified its status in the active rules list[cite: 13, 14].
+1. Opened firewall configuration tools using Advanced Security settings (`wf.msc`).
+2. Reviewed existing active inbound and outbound firewall rules.
+3. Created a new **Inbound Rule** targeting specific local TCP **Port 23** (Telnet).
+4. Configured the action rule to **Block the connection** across all profiles (Domain, Private, Public).
+5. Named the rule `Block Telnet Port 23` and successfully verified its status in the active rules list.
 
 ---
 
